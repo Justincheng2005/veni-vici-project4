@@ -1,0 +1,37 @@
+.everything{
+  display: flex;
+  width:100vw
+}
+.main-container{
+  text-align: center;
+  flex-grow: 3
+}
+.param-button-container{
+  margin-bottom: 3rem;
+}
+.param-buttons{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.query-image{
+  max-width:50%;
+}
+.discover-button{
+  margin-top: 2rem;
+  font-size: larger;
+}
+.discover-button:hover{
+  transform: scale(1.1);
+}
+
+.banlist-container{
+  flex-basis:25%;
+  text-align: center;
+}
+.list-bannedSol{
+  display:flex;
+  flex-wrap:wrap;
+}
+.ban-element{
+  margin-top: 0.5rem;
+}
